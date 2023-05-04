@@ -1,0 +1,1926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ifood</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+<body>
+
+
+<!-- #####################       NAVBAR SRAT       #########################              -->
+ 
+
+
+<nav class="navbar navbar-expand-lg sticky-top ">
+    <div class="container ">
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+  
+      <a class="navbar-brand text-center" href="index page.html">
+          <!-- <img src="image/logo/logo.jpg" alt="logo" style="width: 20%;" > -->
+       
+          <h2  class="animate__animated animate__backInLeft"> ifood </h2>
+        </a>
+         
+      
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         
+        <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index page.html">Home</a>
+          </li>
+          <li class="nav-item lala">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="help support.html">Help & Support</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="menu.html"> Menu</a>
+           
+          </li>
+         
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Find food and Restaurants" aria-label="Search">
+          <!-- <button class="btn btn-outline-danger " type="button" >Ordernow</button>  -->
+          
+        </form>
+<button type="button" class="btn btn-outline-danger " data-bs-toggle="modal" data-bs-target="#loginid  ">
+  Order now
+</button>
+
+      
+      </div>
+    </div> 
+  </nav>
+
+
+  <!-- Login -->
+
+  <div class="modal fade " id="loginid"  aria-labelledby="ModalLabel" aria-hidden="true" tabindex="-1">
+    <div class="modal-dialog   model-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <h1 class=" modal-title fs-6  animate__animated animate__backInUp">Welcome to ifood</h1>
+       
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+          
+          <div class="col-12 " id="side2">
+            <form method="post" >
+          <!-- <label  for="loginId">Login Id</label> <br> -->
+          <input  type="text/number" name="loginId" placeholder=" Login Id">
+           <br>
+          <!-- <label for="password">Password</label> <br> -->
+          <input type="password" name="password" placeholder=" Password">
+          <br>
+          <input type="submit">
+        </form>
+          </div>
+          </div>
+          </div>
+        
+
+        </div>
+        <div class="modal-footer justify-content-center">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#sign-up">SignUp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <!-- Login -->
+
+
+  <!-- Sign Up -->
+
+  <div class="modal fade" id="sign-up"  aria-labelledby="ModalLabel" aria-hidden="true" tabindex="-1">
+    <div class="modal-dialog  modal-dialog-scrollable model-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" >Welcome to ifood</h1>
+      
+        </div>
+        <div class="modal-body ">
+           
+          <div class="container ">
+            <div class="row">
+
+                <div class="col-md-12" id="side2">
+                    <h3>Create Account</h3>
+                    
+                      <form method="post" action="">
+                        <input type="text" placeholder=" Name" required>
+                        <input type="email" placeholder=" Email" required>
+                        <input type="number" placeholder=" Mobile No" required>
+
+                        <input type="text" placeholder=" Password" required>
+                        <input type="text" placeholder=" Confirm Password" required>
+
+                    
+                   
+                   <input type="submit">
+                  </form>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#loginid">Back</button>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- signup -->
+
+<!-- #####################       NAVBAR  END     #########################              -->
+
+
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%% OFFER START %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+
+
+<div class="container-fluid  my-3 banner mt-0 mb-0">
+ 
+    <div class="container ">
+
+      <!-- <video autoplay loop > <source src="image/banner video.mpr.mp4" type="video/mp4" class="w-100"> </video> -->
+             <h2 class="text-center p-3 animate__animated animate__zoomIn">CHOOSE BEST FOOD</h2>
+             
+  
+    <div class="row mx-auto my-auto justify-content-center">
+    <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      
+               <div class="carousel-item active">
+               <div class="col-md-3">
+               <div class="card-body mx-4 my-4">
+               <div class="card-img ">
+               <img src="image/card01.jpg" class="img-fluid ">
+               </div>
+               </div>
+               </div>
+               </div>
+  
+  
+               <div class="carousel-item">
+               <div class="col-md-3">
+               <div class="card-body mx-4 my-4">
+               <div class="card-img">
+               <img src="image/card02.jpg" class="img-fluid">
+               </div>
+               </div>
+               </div>
+               </div>
+  
+                
+               <div class="carousel-item">
+               <div class="col-md-3">
+               <div class="card-body mx-4 my-4">
+               <div class="card-img">
+               <img src="image/card03.jpg" class="img-fluid">
+               </div>
+               </div>
+               </div>
+               </div>
+  
+  
+               <div class="carousel-item">
+               <div class="col-md-3">
+               <div class="card-body mx-4 my-4">
+               <div class="card-img">
+               <img src="image/card04.jpg" class="img-fluid">
+               </div>
+               </div>
+               </div>
+               </div>
+  
+               <div class="carousel-item">
+                <div class="col-md-3">
+                <div class="card-body mx-4 my-4">
+                <div class="card-img">
+                <img src="image/card05.jpg" class="img-fluid">
+                </div>
+                </div>
+                </div>
+                </div>
+  
+               <div class="carousel-item">
+               <div class="col-md-3">
+               <div class="card-body mx-4 my-4">
+               <div class="card-img">
+               <img src="image/card06.jpg" class="img-fluid">
+               </div>
+               </div>
+               </div>
+               </div>
+  
+                
+               <div class="carousel-item">
+                <div class="col-md-3">
+                <div class="card-body mx-4 my-4">
+                <div class="card-img">
+                <img src="image/card07.jpg" class="img-fluid">
+                </div>
+                </div>
+                </div>
+                </div>
+                
+                <div class="carousel-item">
+               <div class="col-md-3">
+               <div class="card-body mx-4 my-4">
+               <div class="card-img">
+               <img src="image/card06.jpg" class="img-fluid">
+               </div>
+               </div>
+               </div>
+               </div>
+         
+        <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
+    </div>		
+    </div>
+    </div>
+    </div>
+    
+  <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%% OFFER END %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+  
+<!--  #########################     FITER START         ##########################  -->
+<div class="container bg-light">
+<div class="row p-4">
+  <!-- container -->
+
+
+  <div class="col-lg-4  ">
+    <h4>1699 restaurants </h4>
+</div>
+
+<div class="col-lg-8   ">
+    <div class="row text-sm-center text-md-center font">
+      <div class= "col-sm-6 col-lg-3 mt-1 mb-1">
+       <a href="">Delivery Time</a>
+     </div>
+     <div class="col-sm-6 col-lg-3 mt-1 mb-1">
+       <a href="">Rating</a>
+     </div>
+     <div class="col-sm-6 col-lg-3 mt-1 mb-1">
+      <a href="">Cost: Low to High</a>
+     </div>
+     <div class="col-sm-6 col-lg-3 mt-1 mb-1">
+       <a href="">Cost: High to Low</a>
+     </div>
+    </div>
+  </div>
+
+
+   <!-- container -->
+</div>
+</div>
+
+<!--  #########################     FITER END         ##########################  -->
+    
+
+ <!--  ######################  PRODUCT SEATION START    ####################### -->
+ <div class="container">
+    <div class="row">
+   <!-- container  -->
+
+
+   <!-- La Pino'z Pizza start  -->
+<div class="col-sm-6 col-md-4 col-lg-3" id="card01">
+    <div class="card border-danger">
+        <a href="pizza menu.html">
+        <img src="image/poduct/01.jpg" class="card-img-top" alt="" id="food.html">
+        <div class="card-body">
+            <h5 class="card-titel">La Pino'z Pizza</h5>
+           <p class="card-text">Pizzas, Italian, Snacks, Desserts, Beverages</p>
+        </a>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <hr>
+       
+            <div class="row justify-content-center">
+            <button type="button" class="btn  w-50" data-bs-toggle="modal" data-bs-target="#exampleModal1"> QUICK VIEW</button>
+            </div>  
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title " id="exampleModalLabel1"> <h4 class="text-center">La Pino'z Pizza </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 m-0">
+                   
+                    <h5>M E N U</h5>
+                    <hr>
+                    <ul class="m-0 mt-2 "> 
+                      <li><a href="">Buy 2 Pizza @299</a></li>
+                      <hr>
+                      <li><a href="">Buy 2 Pizza @649</a></li>
+                      <hr>
+                      <li><a href="">Combos</a></li>
+                      <hr>
+                     
+                    </ul>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="image/pizza menu/quick view/capsicum.jpg">
+                        <img src="image/pizza menu/quick view/capsicum.jpg" alt="">
+                      </a>
+                        <p>capsium</p>
+                      </div>
+                      <div class="col-md-6">
+                        
+                        <a href="image/pizza menu/quick view/onoins.jpg"><img src="image/pizza menu/quick view/onoins.jpg" alt=""></a>
+                        <p>Onion</p>
+                      </div>
+                      <div class="col-md-6">
+                       <a href="image/pizza menu/quick view/sweet.jpg"> <img src="image/pizza menu/quick view/sweet.jpg" alt=""></a>
+                        <p>Sweet corn</p>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="image/pizza menu/quick view/tamatoes.jpg"><img src="image/pizza menu/quick view/tamatoes.jpg" alt=""></a>
+                        <p>Tamatoes</p>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" href="pizza menu.html" >  <a href="pizza menu.html"> Oder now</a></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+       <!-- model -->
+    </div>
+    </div>
+    </div>
+    <!-- La Pino'z Pizza end  -->
+
+    <!-- Wow! China start  -->
+<div class="col-sm-6 col-md-4 col-lg-3" id="card02">
+    <div class="card border-danger">
+        <a href="menu.html">
+        <img src="image/poduct/02.jpg" class="card-img-top" alt="" id="food.html">
+        <div class="card-body">
+            <h5 class="card-titel">Wow! China</h5>
+           <p class="card-text">Tibetan, Chinese, Asian, Snacks, Continental, Desserts</p>
+        </a>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <hr>
+       
+            <div class="row justify-content-center">
+            <button type="button" class="btn  w-50" data-bs-toggle="modal" data-bs-target="#exampleModal2"> QUICK VIEW</button>
+            </div>  
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title " id="exampleModalLabel1"> <h4 class="text-center">La Pino'z Pizza </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 m-0">
+                   
+                    <h5>M E N U</h5>
+                    <hr>
+                    <ul class="m-0 mt-2 "> 
+                      <li><a href="">Veg Biryani</a></li>
+                      <hr>
+                      <li><a href="">Bhaji Dosa</a></li>
+                      <hr>
+                      <li><a href="">Aloo Masala Poori</a></li>
+                      <hr>
+                     
+                    </ul>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="image/quick view/Veg Biryani.jpg">
+                        <img src="image/quick view/Veg Biryani.jpg" alt="">
+                      </a>
+                        <p>Veg Biryani</p>
+                      </div>
+                      <div class="col-md-6">
+                        
+                        <a href="image/menu/Pav Bhaji Dosa.jpg"><img src="image/menu/Pav Bhaji Dosa.jpg" alt=""></a>
+                        <p>Bhaji Dosa</p>
+                      </div>
+                      <div class="col-md-6">
+                       <a href="image/menu/Aloo Masala Poori [ 5 Pcs] & Aloo Sabji.jpg"> <img src="image/menu/Aloo Masala Poori [ 5 Pcs] & Aloo Sabji.jpg" alt=""></a>
+                        <p>Aloo Masala Poori</p>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="image/menu/Pyaz Paratha [2 Pcs] + Curd [100 Gm].jpg"><img src="image/menu/Pyaz Paratha [2 Pcs] + Curd [100 Gm].jpg" alt=""></a>
+                        <p>Pyaz Paratha</p>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" href="menu.html" >  <a href="menu.html"> Oder now</a></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+       <!-- model -->
+    </div>
+    </div>
+    </div>
+    <!-- Wow China  end  -->
+
+    <!-- Sujata Family Restaurant start  -->
+<div class="col-sm-6 col-md-4 col-lg-3" id="card03">
+    <div class="card border-danger">
+        <a href="pizza menu.html">
+        <img src="image/poduct/03.jpg" class="card-img-top" alt="" id="food.html">
+        <div class="card-body">
+            <h5 class="card-titel">Sujata Family Restauran</h5>
+           <p class="card-text">Mughlai, Chinese, North Indian  Desserts, Beverages</p>
+        </a>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <hr>
+       
+            <div class="row justify-content-center">
+            <button type="button" class="btn  w-50" data-bs-toggle="modal" data-bs-target="#exampleModal3"> QUICK VIEW</button>
+            </div>  
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title " id="exampleModalLabel3"> <h4 class="text-center">Sujata Family Restauran </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 m-0">
+                   
+                    <h5>M E N U</h5>
+                    <hr>
+                    <ul class="m-0 mt-2 "> 
+                      <li><a href="">Chicken Curry</a></li>
+                      <hr>
+                      <li><a href="">Chicken Chilly Boneless</a></li>
+                      <hr>
+                      <li><a href="">Chicken Curry</a></li>
+                      <hr>
+                     
+                    </ul>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="image/quick view/Chicken Curry ( 2 pcs).jpg">
+                        <img src="image/quick view/Chicken Curry ( 2 pcs).jpg" alt="">
+                      </a>
+                        <p>Chicken Curry</p>
+                      </div>
+                      <div class="col-md-6">
+                        
+                        <a href="image/quick view/Chicken Chilly Boneless Gravy.jpg"><img src="image/quick view/Chicken Chilly Boneless Gravy.jpg" alt=""></a>
+                        <p>Chicken Chilly </p>
+                      </div>
+                      <div class="col-md-6">
+                       <a href="image/quick view/Chicken Curry ( 2 pcs).jpg"> <img src="image/quick view/Chicken Curry ( 2 pcs).jpg" alt=""></a>
+                        <p>Chicken Curry</p>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="image/quick view/Chicken Fried Rice ( 2box, Serve 2).jpg"><img src="image/quick view/Chicken Fried Rice ( 2box, Serve 2).jpg" alt=""></a>
+                        <p>Chicken Fried Rice</p>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" href="menu.html" >  <a href="menu.html"> Oder now</a></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+       <!-- model -->
+    </div>
+    </div>
+    </div>
+    <!-- Sujata Family Resturant end  -->
+
+    <!--  Nawabi Biryani & Tandoor start  -->
+<div class="col-sm-6 col-md-4 col-lg-3" id="card04">
+    <div class="card border-danger">
+        <a href="pizza menu.html">
+        <img src="image/poduct/04.jpg" class="card-img-top" alt="" id="food.html">
+        <div class="card-body">
+            <h5 class="card-titel"> Nawabi Biryani & Tandoor</h5>
+           <p class="card-text">Tandoor, North Indian, Indian</p>
+        </a>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <hr>
+       
+            <div class="row justify-content-center">
+            <button type="button" class="btn  w-50" data-bs-toggle="modal" data-bs-target="#exampleModal4"> QUICK VIEW</button>
+            </div>  
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title " id="exampleModalLabel4"> <h4 class="text-center">La Pino'z Pizza </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 m-0">
+                   
+                    <h5>M E N U</h5>
+                    <hr>
+                    <ul class="m-0 mt-2 "> 
+                      <li><a href="">biryani</a></li>
+                      <hr>
+                      <li><a href="">Chicken</a></li>
+                      <hr>
+                      <li><a href="">Garlic Chicken</a></li>
+                      <hr>
+                     
+                    </ul>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="image/biryani.jfif">
+                        <img src="image/biryani.jfif" alt="">
+                      </a>
+                        <p>biryani</p>
+                      </div>
+                      <div class="col-md-6">
+                        
+                        <a href="image/menu/Chicken 65.jpg"><img src="image/menu/Chicken 65.jpg" alt=""></a>
+                        <p>Chicken</p>
+                      </div>
+                      <div class="col-md-6">
+                       <a href="image/menu/Garlic Chicken.jpg"> <img src="image/menu/Garlic Chicken.jpg" alt=""></a>
+                        <p>Garlic Chicken</p>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="image/menu/Chicken Chilli.jpg"><img src="image/menu/Chicken Chilli.jpg" alt=""></a>
+                        <p>Chicken Chilli</p>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" href="menu.html" >  <a href="menu.html"> Oder now</a></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+       <!-- model -->
+    </div>
+    </div>
+    </div>
+    <!--  Nawabi Biryani & Tandoor end  -->
+
+    <!-- Desi Tadka Family Resturant start  -->
+<div class="col-sm-6 col-md-4 col-lg-3" id="card05">
+    <div class="card border-danger">
+        <a href="pizza menu.html">
+        <img src="image/poduct/05.jpg" class="card-img-top" alt="" id="food.html">
+        <div class="card-body">
+            <h5 class="card-titel">Desi Tadka Family Resturant</h5>
+           <p class="card-text">Indian, Chinese Mughlai</p>
+        </a>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <hr>
+       
+            <div class="row justify-content-center">
+            <button type="button" class="btn  w-50" data-bs-toggle="modal" data-bs-target="#exampleModal5"> QUICK VIEW</button>
+            </div>  
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title " id="exampleModalLabel5"> <h4 class="text-center">Desi Tadka Family Resturant </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 m-0">
+                   
+                    <h5>M E N U</h5>
+                    <hr>
+                    <ul class="m-0 mt-2 "> 
+                      <li><a href="">Paneer Chilli</a></li>
+                      <hr>
+                      <li><a href="">Paneer Handi</a></li>
+                      <hr>
+                      <li><a href="">Veg Biryani</a></li>
+                      <hr>
+                     
+                    </ul>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="image/quick view/Paneer Chilli Dry.jpg">
+                        <img src="image/quick view/Paneer Chilli Dry.jpg" alt="">
+                      </a>
+                        <p>Paneer Chilli</p>
+                      </div>
+                      <div class="col-md-6">
+                        
+                        <a href="image/quick view/Paneer Handi.jpg"><img src="image/quick view/Paneer Handi.jpg" alt=""></a>
+                        <p>Paneer Handi</p>
+                      </div>
+                      <div class="col-md-6">
+                       <a href="image/quick view/Veg Biryani.jpg"> <img src="image/quick view/Veg Biryani.jpg" alt=""></a>
+                        <p>Veg Biryani</p>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="image/quick view/Chicken Biryani.jpg"><img src="image/quick view/Chicken Biryani.jpg" alt=""></a>
+                        <p>Tamatoes</p>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" href="menu.html" >  <a href="menu.html"> Oder now</a></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+       <!-- model -->
+    </div>
+    </div>
+    </div>
+    <!-- Desi Tadka Family Resturant end  -->
+
+    <!-- Veg Food Hub start  -->
+<div class="col-sm-6 col-md-4 col-lg-3" id="card06">
+    <div class="card border-danger">
+        <a href="pizza menu.html">
+        <img src="image/poduct/06.jpg" class="card-img-top" alt="" id="food.html">
+        <div class="card-body">
+            <h5 class="card-titel">Veg Food Hub</h5>
+           <p class="card-text">North Indian, Chinese, Fast Food, Italian</p>
+        </a>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <hr>
+       
+            <div class="row justify-content-center">
+            <button type="button" class="btn  w-50" data-bs-toggle="modal" data-bs-target="#exampleModal6"> QUICK VIEW</button>
+            </div>  
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title " id="exampleModalLabel6"> <h4 class="text-center">Veg Food Hub </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 m-0">
+                   
+                    <h5>M E N U</h5>
+                    <hr>
+                    <ul class="m-0 mt-2 "> 
+                      <li><a href="">Veg Biryani</a></li>
+                      <hr>
+                      <li><a href="">Pav Bhaji Dosa9</a></li>
+                      <hr>
+                      <li><a href="">Pyaz Paratha</a></li>
+                      <hr>
+                     
+                    </ul>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="image/quick view/Veg Biryani.jpg">
+                        <img src="image/quick view/Veg Biryani.jpg" alt="">
+                      </a>
+                        <p>Veg Biryani</p>
+                      </div>
+                      <div class="col-md-6">
+                        
+                        <a href="image/menu/Pav Bhaji Dosa.jpg"><img src="image/menu/Pav Bhaji Dosa.jpg" alt=""></a>
+                        <p>Pav Bhaji Dosa</p>
+                      </div>
+                      <div class="col-md-6">
+                       <a href="image/menu/Aloo Masala Poori [ 5 Pcs] & Aloo Sabji.jpg"> <img src="image/menu/Aloo Masala Poori [ 5 Pcs] & Aloo Sabji.jpg" alt=""></a>
+                        <p>Aloo Masala Poori</p>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="image/menu/Pyaz Paratha [2 Pcs] + Curd [100 Gm].jpg"><img src="image/menu/Pyaz Paratha [2 Pcs] + Curd [100 Gm].jpg" alt=""></a>
+                        <p>Pyaz Paratha</p>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" href="menu.html" >  <a href="menu.html"> Oder now</a></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+       <!-- model -->
+    </div>
+    </div>
+    </div>
+    <!-- Veg Food Hub end  -->
+
+    <!-- Burger King start  -->
+<div class="col-sm-6 col-md-4 col-lg-3" id="card07">
+    <div class="card border-danger">
+        <a href="pizza menu.html">
+        <img src="image/poduct/07.jpg" class="card-img-top" alt="" id="food.html">
+        <div class="card-body">
+            <h5 class="card-titel">Burger King</h5>
+           <p class="card-text">North Indian, Chinese, Fast Food, Italian</p>
+        </a>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <hr>
+       
+            <div class="row justify-content-center">
+            <button type="button" class="btn  w-50" data-bs-toggle="modal" data-bs-target="#exampleModal7"> QUICK VIEW</button>
+            </div>  
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel7" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title " id="exampleModalLabel7"> <h4 class="text-center">Burger King </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 m-0">
+                   
+                    <h5>M E N U</h5>
+                    <hr>
+                    <ul class="m-0 mt-2 "> 
+                      <li><a href="">Veggie Supreme Burger</a></li>
+                      <hr>
+                      <li><a href="">Veggie Burger</a></li>
+                      <hr>
+                      <li><a href="">plain burger</a></li>
+                      <hr>
+                     
+                    </ul>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="image/burger menu/Veggie Supreme Burger.jg.webp">
+                        <img src="image/burger menu/Veggie Supreme Burger.jg.webp" alt="">
+                      </a>
+                        <p>Veggie Supreme Burger</p>
+                      </div>
+                      <div class="col-md-6">
+                        
+                        <a href="image/burger menu/Veggie Supreme Burger.jg.webp"><img src="image/burger menu/Veggie Supreme Burger.jg.webp" alt=""></a>
+                        <p>Veggie Burge</p>
+                      </div>
+                      <div class="col-md-6">
+                       <a href="image/burger menu/Veggie Supreme Burger.jg.webp"> <img src="image/burger menu/Veggie Supreme Burger.jg.webp" alt=""></a>
+                        <p>plain burger</p>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="image/burger menu/Veggie Supreme Burger.jg.webp"><img src="image/burger menu/Veggie Supreme Burger.jg.webp" alt=""></a>
+                        <p>Veggie Supreme Burger</p>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" href="burger menu.html" >  <a href="burger menu.html"> Oder now</a></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+       <!-- model -->
+    </div>
+    </div>
+    </div>
+    <!-- Burger King end  -->
+
+    <!-- Welcome Royal Chicken Biryani start  -->
+<div class="col-sm-6 col-md-4 col-lg-3" id="card08">
+    <div class="card border-danger">
+        <a href="pizza menu.html">
+        <img src="image/poduct/08.jpg" class="card-img-top" alt="" id="food.html">
+        <div class="card-body">
+            <h5 class="card-titel">Welcome Royal Chicken Biryani</h5>
+           <p class="card-text">Biryani</p>
+        </a>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <hr>
+       
+            <div class="row justify-content-center">
+            <button type="button" class="btn  w-50" data-bs-toggle="modal" data-bs-target="#exampleModal8"> QUICK VIEW</button>
+            </div>  
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel8" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title " id="exampleModalLabel8"> <h4 class="text-center">Welcome Royal Chicken Biryani </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 m-0">
+                   
+                    <h5>M E N U</h5>
+                    <hr>
+                    <ul class="m-0 mt-2 "> 
+                      <li><a href="">Chicken Biryani</a></li>
+                      <hr>
+                      <li><a href="">Egg Biryani</a></li>
+                      <hr>
+                      <li><a href="">Mutton Biryani</a></li>
+                      <hr>
+                     
+                    </ul>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="image/quick view/Chicken Biryani.jpg">
+                        <img src="image/quick view/Chicken Biryani.jpg" alt="">
+                      </a>
+                        <p>Chicken Biryani</p>
+                      </div>
+                      <div class="col-md-6">
+                        
+                        <a href="image/quick view/Egg Biryani.jpg"><img src="image/quick view/Egg Biryani.jpg" alt=""></a>
+                        <p>Egg Biryani</p>
+                      </div>
+                      <div class="col-md-6">
+                       <a href="image/quick view/Mutton Biryani.jpg"> <img src="image/quick view/Mutton Biryani.jpg" alt=""></a>
+                        <p>Mutton Biryani</p>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="image/quick view/Veg Biryani.jpg"><img src="image/quick view/Veg Biryani.jpg" alt=""></a>
+                        <p>Veg Biryani</p>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" href="menu.html" >  <a href="menu.html"> Oder now</a></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+       <!-- model -->
+    </div>
+    </div>
+    </div>
+    <!-- Welcome Royal Chicken Biryani end  -->
+
+    <!-- HALDIRAM (Kankarbagh) start  -->
+<div class="col-sm-6 col-md-4 col-lg-3" id="card09">
+    <div class="card border-danger">
+        <a href="pizza menu.html">
+        <img src="image/poduct/09.jpg" class="card-img-top" alt="" id="food.html">
+        <div class="card-body">
+            <h5 class="card-titel">HALDIRAM (Kankarbagh)</h5>
+           <p class="card-text">Bakery, Sweets, Indian</p>
+        </a>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <hr>
+       
+            <div class="row justify-content-center">
+            <button type="button" class="btn  w-50" data-bs-toggle="modal" data-bs-target="#exampleModal9"> QUICK VIEW</button>
+            </div>  
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel9" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title " id="exampleModalLabel9"> <h4 class="text-center">HALDIRAM (Kankarbagh) </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 m-0">
+                   
+                    <h5>M E N U</h5>
+                    <hr>
+                    <ul class="m-0 mt-2 "> 
+                      <li><a href="">White Rasgulla</a></li>
+                      <hr>
+                      <li><a href="">Gulab Jamun</a></li>
+                      <hr>
+                      <li><a href="">Kalakand</a></li>
+                      <hr>
+                     
+                    </ul>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="image/quick view/White Rasgulla.jpg">
+                        <img src="image/quick view/White Rasgulla.jpg" alt="">
+                      </a>
+                        <p>White Rasgulla</p>
+                      </div>
+                      <div class="col-md-6">
+                        
+                        <a href="image/quick view/Gulab Jamun.jpg"><img src="image/quick view/Gulab Jamun.jpg" alt=""></a>
+                        <p>Gulab Jamun</p>
+                      </div>
+                      <div class="col-md-6">
+                       <a href="image/quick view/Kalakand.jpg"> <img src="image/quick view/Kalakand.jpg" alt=""></a>
+                        <p>Kalakand</p>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="image/quick view/Gulab Jamun.jpg"><img src="image/quick view/Gulab Jamun.jpg" alt=""></a>
+                        <p>Gulab Jamun</p>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" href="haldiram menu.html" >  <a href="haldiram menu.html"> Oder now</a></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+       <!-- model -->
+    </div>
+    </div>
+    </div>
+    <!-- HALDIRAM (Kankarbagh) end  -->
+
+    <!-- Naushijaan start  -->
+<div class="col-sm-6 col-md-4 col-lg-3" id="card10">
+    <div class="card border-danger">
+        <a href="pizza menu.html">
+        <img src="image/poduct/10.jpg" class="card-img-top" alt="" id="food.html">
+        <div class="card-body">
+            <h5 class="card-titel">Naushijaan</h5>
+           <p class="card-text">Biryani, Kebabs, North Indian, Tandoor</p>
+        </a>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <hr>
+       
+            <div class="row justify-content-center">
+            <button type="button" class="btn  w-50" data-bs-toggle="modal" data-bs-target="#exampleModal10"> QUICK VIEW</button>
+            </div>  
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel10" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title " id="exampleModalLabel10"> <h4 class="text-center">Naushijaan </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 m-0">
+                   
+                    <h5>M E N U</h5>
+                    <hr>
+                    <ul class="m-0 mt-2 "> 
+                      <li><a href="">Veg Biryani</a></li>
+                      <hr>
+                      <li><a href="">Dahi Kebab</a></li>
+                      <hr>
+                      <li><a href=""> Chilly Boneless</a></li>
+                      <hr>
+                     
+                    </ul>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="image/quick view/Veg Biryani.jpg">
+                        <img src="image/quick view/Veg Biryani.jpg" alt="">
+                      </a>
+                        <p>Veg Biryani</p>
+                      </div>
+                      <div class="col-md-6">
+                        
+                        <a href="image/quick view/Dahi Kebab.jpg"><img src="image/quick view/Dahi Kebab.jpg" alt=""></a>
+                        <p>Dahi Kebab</p>
+                      </div>
+                      <div class="col-md-6">
+                       <a href="image/quick view/Chicken Chilly Boneless Gravy.jpg"> <img src="image/quick view/Chicken Chilly Boneless Gravy.jpg" alt=""></a>
+                        <p> Chilly Boneless</p>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="image/quick view/Egg Biryani.jpg"><img src="image/quick view/Egg Biryani.jpg" alt=""></a>
+                        <p>Tamatoes</p>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" href="menu.html" >  <a href="menu.html"> Oder now</a></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+       <!-- model -->
+    </div>
+    </div>
+    </div>
+    <!-- Naushijaan end  -->
+
+    <!-- Original Biryani Charmina start  -->
+<div class="col-sm-6 col-md-4 col-lg-3" id="card11">
+    <div class="card border-danger">
+        <a href="pizza menu.html">
+        <img src="image/poduct/11.jpg" class="card-img-top" alt="" id="food.html">
+        <div class="card-body">
+            <h5 class="card-titel">Original Biryani Charmina</h5>
+           <p class="card-text">Pizzas, Italian, Snacks, Desserts</p>
+        </a>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <hr>
+       
+            <div class="row justify-content-center">
+            <button type="button" class="btn  w-50" data-bs-toggle="modal" data-bs-target="#exampleModal11"> QUICK VIEW</button>
+            </div>  
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel11" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title " id="exampleModalLabel11"> <h4 class="text-center">Original Biryani Charmina </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 m-0">
+                   
+                    <h5>M E N U</h5>
+                    <hr>
+                    <ul class="m-0 mt-2 "> 
+                      <li><a href="">Tandoori Chicken</a></li>
+                      <hr>
+                      <li><a href="">Chicken Biryani</a></li>
+                      <hr>
+                      <li><a href="">Mutton Biryan</a></li>
+                      <hr>
+                     
+                    </ul>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="image/quick view/Afghani Tandoori Chicken.jpg">
+                        <img src="image/quick view/Afghani Tandoori Chicken.jpg" alt="">
+                      </a>
+                        <p>Tandoori Chicken</p>
+                      </div>
+                      <div class="col-md-6">
+                        
+                        <a href="image/quick view/Chicken Biryani.jpg"><img src="image/quick view/Chicken Biryani.jpg" alt=""></a>
+                        <p>Chicken Biryani</p>
+                      </div>
+                      <div class="col-md-6">
+                       <a href="image/quick view/Mutton Biryani.jpg"> <img src="image/quick view/Mutton Biryani.jpg" alt=""></a>
+                        <p>Mutton Biryan</p>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="image/quick view/Mutton Maharaja.jpg"><img src="image/quick view/Mutton Maharaja.jpg" alt=""></a>
+                        <p>Tamatoes</p>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" href="menu.html" >  <a href="menu.html"> Oder now</a></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+       <!-- model -->
+    </div>
+    </div>
+    </div>
+    <!-- Original Biryani Charmina end  -->
+
+    <!-- Mum's Kitchen start  -->
+<div class="col-sm-6 col-md-4 col-lg-3" id="card12">
+    <div class="card border-danger">
+        <a href="pizza menu.html">
+        <img src="image/poduct/12.jpg" class="card-img-top" alt="" id="food.html">
+        <div class="card-body">
+            <h5 class="card-titel">Mum's Kitchen</h5>
+           <p class="card-text">Chinese,<br> North Indian</p>
+        </a>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <hr>
+       
+            <div class="row justify-content-center">
+            <button type="button" class="btn  w-50" data-bs-toggle="modal" data-bs-target="#exampleModal12"> QUICK VIEW</button>
+            </div>  
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel12" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title " id="exampleModalLabel12"> <h4 class="text-center">Mum's Kitchen </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 m-0">
+                   
+                    <h5>M E N U</h5>
+                    <hr>
+                    <ul class="m-0 mt-2 "> 
+                      <li><a href="">Pyaz Paratha</a></li>
+                      <hr>
+                      <li><a href="">Pav Bhaji Dosa9</a></li>
+                      <hr>
+                      <li><a href="">Supreme Burger</a></li>
+                      <hr>
+                     
+                    </ul>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="image/menu/Pyaz Paratha [2 Pcs] + Curd [100 Gm].jpg">
+                        <img src="image/menu/Pyaz Paratha [2 Pcs] + Curd [100 Gm].jpg" alt="">
+                      </a>
+                        <p>Pyaz Paratha</p>
+                      </div>
+                      <div class="col-md-6">
+                        
+                        <a href="image/menu/Pav Bhaji Dosa.jpg"><img src="image/menu/Pav Bhaji Dosa.jpg" alt=""></a>
+                        <p>Pav Bhaji Dosa</p>
+                      </div>
+                      <div class="col-md-6">
+                       <a href="image/burger menu/Veggie Supreme Burger.jg.webp"> <img src="image/burger menu/Veggie Supreme Burger.jg.webp" alt=""></a>
+                        <p>Supreme Burger</p>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="image/poduct/06.jpg"><img src="image/poduct/06.jpg" alt=""></a>
+                        <p>Tamatoes</p>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" href="menu.html" >  <a href="menu.html"> Oder now</a></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+       <!-- model -->
+    </div>
+    </div>
+    </div>
+    <!-- Mum's Kitchen end  -->
+
+    <!-- Royals Bakerya start  -->
+<div class="col-sm-6 col-md-4 col-lg-3" id="card13">
+    <div class="card border-danger">
+        <a href="pizza menu.html">
+        <img src="image/poduct/13.jpg" class="card-img-top" alt="" id="food.html">
+        <div class="card-body">
+            <h5 class="card-titel">Royals Bakery</h5>
+           <p class="card-text">Bakery</p>
+        </a>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <hr>
+       
+            <div class="row justify-content-center">
+            <button type="button" class="btn  w-50" data-bs-toggle="modal" data-bs-target="#exampleModal13"> QUICK VIEW</button>
+            </div>  
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel13" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title " id="exampleModalLabel13"> <h4 class="text-center">Royals Bakery </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 m-0">
+                   
+                    <h5>M E N U</h5>
+                    <hr>
+                    <ul class="m-0 mt-2 "> 
+                      <li><a href="">Red Velvet Cake</a></li>
+                      <hr>
+                      <li><a href="">Pine Apple</a></li>
+                      <hr>
+                      <li><a href="">White Forest</a></li>
+                      <hr>
+                     
+                    </ul>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="image/haldiram menu/Red Velvet Cake.jpg">
+                        <img src="image/haldiram menu/Red Velvet Cake.jpg" alt="">
+                      </a>
+                        <p>Red Velvet </p>
+                      </div>
+                      <div class="col-md-6">
+                        
+                        <a href="image/haldiram menu/Pine Apple Cake.jpg"><img src="image/haldiram menu/Pine Apple Cake.jpg" alt=""></a>
+                        <p>Pine Apple</p>
+                      </div>
+                      <div class="col-md-6">
+                       <a href="image/haldiram menu/White Forest Cake.jpg"> <img src="image/haldiram menu/White Forest Cake.jpg" alt=""></a>
+                        <p>White Forest</p>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="image/haldiram menu/Choco Crunch Cake.jpg"><img src="image/haldiram menu/Choco Crunch Cake.jpg" alt=""></a>
+                        <p>Choco Crunch</p>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" href="haldiram menu.html" >  <a href="haldiram menu.html"> Oder now</a></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+       <!-- model -->
+    </div>
+    </div>
+    </div>
+    <!-- Royals Bakerya end  -->
+
+    <!-- Baskin Robbins start  -->
+<div class="col-sm-6 col-md-4 col-lg-3" id="card14">
+    <div class="card border-danger">
+        <a href="pizza menu.html">
+        <img src="image/poduct/14.jpg" class="card-img-top" alt="" id="food.html">
+        <div class="card-body">
+            <h5 class="card-titel">Baskin Robbins</h5>
+           <p class="card-text">Ice Cream</p>
+        </a>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <hr>
+       
+            <div class="row justify-content-center">
+            <button type="button" class="btn  w-50" data-bs-toggle="modal" data-bs-target="#exampleModal14"> QUICK VIEW</button>
+            </div>  
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel14" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title " id="exampleModalLabel14"> <h4 class="text-center">Baskin Robbins </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 m-0">
+                   
+                    <h5>M E N U</h5>
+                    <hr>
+                    <ul class="m-0 mt-2 "> 
+                      <li><a href="">Cotton Candy</a></li>
+                      <hr>
+                      <li><a href="">HERSHEY'S Chocolate</a></li>
+                      <hr>
+                      <li><a href="">Hershey's Kisses</a></li>
+                      <hr>
+                     
+                    </ul>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="image/quick view/Cotton Candy and Marshmallows Super-Duper Thickshake.jpg">
+                        <img src="image/quick view/Cotton Candy and Marshmallows Super-Duper Thickshake.jpg" alt="">
+                      </a>
+                        <p>Cotton Candy</p>
+                      </div>
+                      <div class="col-md-6">
+                        
+                        <a href="image/quick view/HERSHEY'S Chocolate Overload Super Duper Thickshake,jpg.webp"><img src="image/quick view/HERSHEY'S Chocolate Overload Super Duper Thickshake,jpg.webp" alt=""></a>
+                        <p>HERSHEY'S Chocolate</p>
+                      </div>
+                      <div class="col-md-6">
+                       <a href="image/quick view/Hershey's Kisses Caramel Ice cream.jpg"> <img src="image/quick view/Hershey's Kisses Caramel Ice cream.jpg" alt=""></a>
+                        <p>Hershey's Kisses</p>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="image/quick view/Italian Wafer Sandwich - Chocolate.jpg"><img src="image/quick view/Italian Wafer Sandwich - Chocolate.jpg" alt=""></a>
+                        <p>Italian Wafer </p>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" href="coffe menu.html" >  <a href="coffe menu.html"> Oder now</a></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+       <!-- model -->
+    </div>
+    </div>
+    </div>
+    <!-- Baskin Robbins end  -->
+
+    <!-- Cafe Coffee Day start  -->
+<div class="col-sm-6 col-md-4 col-lg-3" id="card15">
+    <div class="card border-danger">
+        <a href="pizza menu.html">
+        <img src="image/poduct/15.jpg" class="card-img-top" alt="" id="food.html">
+        <div class="card-body">
+            <h5 class="card-titel">Cafe Coffee Day</h5>
+           <p class="card-text">Beverages, Snacks, Desserts</p>
+        </a>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <hr>
+       
+            <div class="row justify-content-center">
+            <button type="button" class="btn  w-50" data-bs-toggle="modal" data-bs-target="#exampleModal15"> QUICK VIEW</button>
+            </div>  
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel15" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title " id="exampleModalLabel15"> <h4 class="text-center">Cafe Coffee Day </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 m-0">
+                   
+                    <h5>M E N U</h5>
+                    <hr>
+                    <ul class="m-0 mt-2 "> 
+                      <li><a href="">Knight Roll</a></li>
+                      <hr>
+                      <li><a href="">White Forest</a></li>
+                      <hr>
+                      <li><a href="">Choco Chips</a></li>
+                      <hr>
+                     
+                    </ul>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="image/quick view/Bavarian Knight Roll Cake Slice.jpg">
+                        <img src="image/quick view/Bavarian Knight Roll Cake Slice.jpg" alt="">
+                      </a>
+                        <p>Knight Roll</p>
+                      </div>
+                      <div class="col-md-6">
+                        
+                        <a href="image/haldiram menu/White Forest Cake.jpg"><img src="image/haldiram menu/White Forest Cake.jpg" alt=""></a>
+                        <p>White Forest</p>
+                      </div>
+                      <div class="col-md-6">
+                       <a href="image/haldiram menu/Choco Chips Cake.jpg"> <img src="image/haldiram menu/Choco Chips Cake.jpg" alt=""></a>
+                        <p>Choco Chips</p>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="image/quick view/Italian Wafer Sandwich - Chocolate.jpg"><img src="image/quick view/Italian Wafer Sandwich - Chocolate.jpg" alt=""></a>
+                        <p>Italian Wafer</p>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" href="coffe menu.html" >  <a href="coffe menu.html"> Oder now</a></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+       <!-- model -->
+    </div>
+    </div>
+    </div>
+    <!-- Cafe Coffee Day end  -->
+
+    <!-- Kingdom of Momos start  -->
+<div class="col-sm-6 col-md-4 col-lg-3" id="card16">
+    <div class="card border-danger">
+        <a href="pizza menu.html">
+        <img src="image/poduct/16.jpg" class="card-img-top" alt="" id="food.html">
+        <div class="card-body">
+            <h5 class="card-titel">Kingdom of Momos</h5>
+           <p class="card-text">Chinese, , Tandoor, Fast Food</p>
+        </a>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <i class="fa-solid fa-star fa-sm" style="color: #e01133;"></i>
+           <hr>
+       
+            <div class="row justify-content-center">
+            <button type="button" class="btn  w-50" data-bs-toggle="modal" data-bs-target="#exampleModal16"> QUICK VIEW</button>
+            </div>  
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel16" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title " id="exampleModalLabel16"> <h4 class="text-center">Kingdom of Momos </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 m-0">
+                   
+                    <h5>M E N U</h5>
+                    <hr>
+                    <ul class="m-0 mt-2 "> 
+                      <li><a href="">Paneer Tikka</a></li>
+                      <hr>
+                      <li><a href="">Dahi Kebab</a></li>
+                      <hr>
+                      <li><a href="">Chicken Reshmi</a></li>
+                      <hr>
+                     
+                    </ul>
+                  </div>
+                  <div class="col-md-8 text-center">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="image/quick view/Paneer Tikka.jpg">
+                        <img src="image/quick view/Paneer Tikka.jpg" alt="">
+                      </a>
+                        <p>Paneer Tikka</p>
+                      </div>
+                      <div class="col-md-6">
+                        
+                        <a href="image/quick view/Dahi Kebab.jpg"><img src="image/quick view/Dahi Kebab.jpg" alt=""></a>
+                        <p>Dahi Kebab</p>
+                      </div>
+                      <div class="col-md-6">
+                       <a href="image/quick view/Chicken Reshmi Kebab.jpg"> <img src="image/quick view/Chicken Reshmi Kebab.jpg" alt=""></a>
+                        <p>Chicken Reshmi</p>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="image/quick view/Bavarian Knight Roll Cake Slice.jpg"><img src="image/quick view/Bavarian Knight Roll Cake Slice.jpg" alt=""></a>
+                        <p>Roll Cake</p>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" href="menu.html" >  <a href="menu.html"> Oder now</a></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+       <!-- model -->
+    </div>
+    </div>
+    </div>
+    <!-- Kingdom of Momos end  -->
+
+
+
+  <!-- container  -->
+  </div>
+  </div>
+   <!--  ######################   PRODUCT SEATION END   ######################## -->
+
+
+   <!--        footer      -->
+
+<div class="footer ">
+    <div class="container-fluid">
+      <div class="container mx-auto">
+      <div class="row  m-2 mt-3"  >
+        
+          <div class="col-md-6 text-sm-center mt-3 mb-3">
+            <h1>ifood</h1>
+          </div>
+          <div class="col-md-6 mt-3 mb-3">
+            <button class="btn btn-outline-light m-2">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  India
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href=""></a></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+              </li>
+            </button>
+  
+            <button class="btn btn-outline-light">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                English
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item active" href="">English</a></li>
+                  <li><a class="dropdown-item" href="">Hindi</a></li>
+                  <li><a class="dropdown-item" href="#">Bengali</a></li>
+                </ul>
+              </li>
+            </button>
+          </div>
+          </div>
+          <div class="row  m-2">
+        <div class="col-sm-2 col-md-3">
+       <ul>
+        About Ifood
+        <li><a href="">Who We Are</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Work With Us</a></li>
+        <li><a href="">Investor Relations</a></li>
+        <li><a href="">Report Fraud</a></li>
+        <li><a href="">Contact Us</a></li>
+       
+       </ul>
+    
+        </div>
+        <div class="col-sm-2 col-md-3">
+          <ul>
+            ZOMAVERSE
+            <li><a href="">ifood</a></li>
+            <li><a href="">Blinkit</a></li>
+            <li><a href="">feed india</a></li>
+            <li><a href="">Investor Relations</a></li>
+            <li><a href="">Report Fraud</a></li>
+            <li><a href="">Contact Us</a></li>
+           
+           </ul>
+        
+        </div>
+        <div  class="col-sm-2 col-md-3">
+          <ul>
+            ZOMAVERSE
+            <li><a href="">ifood</a></li>
+            <li><a href="">Blinkit</a></li>
+            <li><a href="">feed india</a></li>
+            <li><a href="">Investor Relations</a></li>
+            <li><a href="">Report Fraud</a></li>
+            <li><a href="">Contact Us</a></li>
+           
+           </ul>
+        </div>
+        <div class="col-sm-2 col-md-3">
+          <ul>
+            ZOMAVERSE
+            <li><a href="">ifood</a></li>
+            <li><a href="">Blinkit</a></li>
+            <li><a href="">feed india</a></li>
+            <li><a href="">Investor Relations</a></li>
+            <li><a href="">Report Fraud</a></li>
+            <li><a href="">Contact Us</a></li>
+           
+           </ul>
+        </div>
+      </div>
+       <div class="row footer mt-3">
+        <div class="col-md-6 text-center">
+          <p>@copyright 2023</p>
+        </div>
+        <div class="col-md-6 text-center ">
+          
+          
+         <a href=""><i class="fa-brands fa-facebook"></i></a> 
+         <a href=""> <i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-telegram"></i></a>
+        </div>
+       </div>
+    </div>
+    </div>
+    
+    </div>
+      <!--        footer      -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        let items = document.querySelectorAll('.carousel .carousel-item')
+       
+       items.forEach((el) => {
+         const minPerSlide = 4
+         let next = el.nextElementSibling
+         for (var i=1; i<minPerSlide; i++) {
+           if (!next) {
+               // wrap carousel by using first child
+               next = items[0]
+           }
+           let cloneChild = next.cloneNode(true)
+           el.appendChild(cloneChild.children[0])
+           next = next.nextElementSibling
+       }
+       })
+       
+       
+       
+       </script>
+
+<script src="jquery.js"></script>
+<script>
+  $(window).scroll (function(){ var positiontop=$(document).scrollTop(); 
+    console.log(positiontop);
+
+if((positiontop>100)&&(positiontop<350)){
+
+$('#card01').addClass('animate__animated animate__fadeInLeft aimation__delay3s');
+
+$('#card02').addClass(' animate__animated animate__flipInX aimation__delay3s');
+
+$('#card03').addClass(' animate__animated animate__flipInX aimation__delay3s');
+
+$('#card04').addClass(' animate__animated animate__fadeInRight aimation__delay3s');
+
+}
+else{
+  $('#card01').removeClass('animate__animated animate__fadeInLeft aimation__delay3s');
+
+$('#card02').removeClass(' animate__animated animate__flipInX aimation__delay3s');
+
+$('#card03').removeClass(' animate__animated animate__flipInX aimation__delay3s');
+
+$('#card04').removeClass(' animate__animated animate__fadeInRight aimation__delay3s');
+
+}
+})
+
+
+$(window).scroll (function(){ var positiontop=$(document).scrollTop(); 
+    console.log(positiontop);
+
+if((positiontop>500)&&(positiontop<680)){
+$('#card05').addClass('animate__animated animate__fadeInLeft aimation__delay3s');
+
+$('#card06').addClass(' animate__animated animate__flipInX aimation__delay3s');
+
+$('#card07').addClass(' animate__animated animate__flipInX aimation__delay3s');
+
+$('#card08').addClass(' animate__animated animate__fadeInRight aimation__delay3s');
+
+}
+
+else{
+  $('#card05').removeClass('animate__animated animate__fadeInLeft aimation__delay3s');
+
+$('#card06').removeClass(' animate__animated animate__flipInX aimation__delay3s');
+
+$('#card07').removeClass(' animate__animated animate__flipInX aimation__delay3s');
+
+$('#card08').removeClass(' animate__animated animate__fadeInRight aimation__delay3s');
+
+}
+})
+
+
+$(window).scroll (function(){ var positiontop=$(document).scrollTop(); 
+    console.log(positiontop);
+
+if((positiontop>920)&&(positiontop<1120)){
+$('#card09').addClass('animate__animated animate__fadeInLeft aimation__delay3s');
+
+$('#card10').addClass(' animate__animated animate__flipInX aimation__delay3s');
+
+$('#card11').addClass(' animate__animated animate__flipInX aimation__delay3s');
+
+$('#card12').addClass(' animate__animated animate__fadeInRight aimation__delay3s');
+}
+else{
+  $('#card09').removeClass('animate__animated animate__fadeInLeft aimation__delay3s');
+
+$('#card10').removeClass(' animate__animated animate__flipInX aimation__delay3s');
+
+$('#card11').removeClass(' animate__animated animate__flipInX aimation__delay3s');
+
+$('#card12').removeClass(' animate__animated animate__fadeInRight aimation__delay3s');
+}
+
+});
+
+$(window).scroll (function(){ var positiontop=$(document).scrollTop(); 
+    console.log(positiontop);
+
+if((positiontop>1350)&&(positiontop<1500)){
+$('#card13').addClass('animate__animated animate__fadeInLeft aimation__delay3s');
+
+$('#card14').addClass(' animate__animated animate__flipInX aimation__delay3s');
+
+$('#card15').addClass(' animate__animated animate__flipInX aimation__delay3s');
+
+$('#card16').addClass(' animate__animated animate__fadeInRight aimation__delay3s');
+}
+
+
+else{
+  $('#card13').removeClass('animate__animated animate__fadeInLeft aimation__delay3s');
+
+$('#card14').removeClass(' animate__animated animate__flipInX aimation__delay3s');
+
+$('#card15').removeClass(' animate__animated animate__flipInX aimation__delay3s');
+
+$('#card16').removeClass(' animate__animated animate__fadeInRight aimation__delay3s');
+}
+
+})
+
+
+</script>
+</body>
+</html>
