@@ -286,7 +286,7 @@
         display: block;
     }
     .footer h1, p {
-/*         text-align: center; */
+        text-align: start;
     }
     .map iframe{
        text-align: center;
